@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.container{
+    background-image: url("images/11.jpg");   
+}
+.tablelayout {
+    padding: 10px;
+    border-radius:7%;
+    height: 450px;
+    width: 430px;
+    margin-left: 28%;
+    background-color: rgb(65, 58, 58);
+}
+.align{
+    font-size: 70px;
+    margin-top: 4%;
+    padding-left: 32%;
+    color: rgb(88, 87, 87);
+}
+.userinput {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 98%;
+    height: 65%;
+}
+.button {
+    font-family: 'Orbitron', sans-serif;
+    background-color:#191b28;
+    color: white;
+    border: solid grey 2px;
+    width: 90%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    font-size: 105%;
+    margin-left: 5px;
+}
+.button:active {   
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+   }

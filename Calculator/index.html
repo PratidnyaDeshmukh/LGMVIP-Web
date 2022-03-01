@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <meta charset="utf-8">
+ <title>  Calculator  </title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body class="container">
+        <p class="align" ><b>Calculator</b></p>
+        <table class="tablelayout" border="2">            
+            <tr>
+                <td colspan = "3"> <input class = "userinput" type = "text" id = "num"/></td>
+                <td> <input class = "button" type = "button" value = "=" onclick = "result()"/></td>
+            </tr>
+            <tr>
+                <td> <input class = "button" type = "button" value = "7" onclick = "show('7')"/></td>
+                <td> <input class = "button" type = "button" value = "8" onclick = "show('8')"/></td>
+                <td> <input class = "button" type = "button" value = "9" onclick = "show('9')"/></td>
+                <td> <input class = "button" type = "button" value = "/" onclick = "show('/')"/></td>
+            </tr>
+            <tr>
+                <td> <input class = "button" type = "button" value = "4" onclick = "show('4')"/></td>
+                <td> <input class = "button" type = "button" value = "5" onclick = "show('5')"/></td>
+                <td> <input class = "button" type = "button" value = "6" onclick = "show('6')"/></td>
+                <td> <input class = "button" type = "button" value = "*" onclick = "show('*')"/></td>
+            </tr>
+            <tr>                   
+                <td> <input class = "button" type = "button" value = "1" onclick = "show('1')"/></td>
+                <td> <input class = "button" type = "button" value = "2" onclick = "show('2')"/></td>
+                <td> <input class = "button" type = "button" value = "3" onclick = "show('3')"/></td>
+                <td> <input class = "button" type = "button" value = "+" onclick = "show('+')"/></td>
+            </tr>
+            <tr>
+                <td> <input class = "button" type = "button" value = "." onclick = "show('.')"/></td>
+                <td> <input class = "button" type = "button" value = "0" onclick = "show('0')"/></td>            
+                <td> <input class = "button" type = "button" value = "-" onclick = "show('-')"/></td>
+                <td> <input class = "button" type = "button" value = "C" onclick = "clr()" style = "background-color: grey; color: black;" /></td>
+            </tr>
+        </table>
+        <script type="text/javascript"  src="script.js"></script>
+    </body>
+</html>
